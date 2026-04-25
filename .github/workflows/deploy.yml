@@ -21,4 +21,4 @@ jobs:
 
       - name: Sync Lab_AWS to S3
         run: |
-          aws s3 sync ./Web/Lab_AWS s3://redex-study-web --delete
+          aws s3 sync ./Lab_AWS s3://redex-study-web --delete
